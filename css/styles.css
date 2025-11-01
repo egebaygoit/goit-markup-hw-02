@@ -1,0 +1,117 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #fff;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 56px;
+
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #4d5ae5;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+}
+
+.logopart2header {
+  color: #2e2f42;
+}
+.logopart2footer {
+  color: #f4f4fd;
+}
+
+.nav1,
+.nav2 {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav1:hover,
+.nav1:focus,
+.nav2:hover,
+.nav2:focus {
+  color: #404bbf;
+}
+.nav1:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+/* a tagi adress tagleri arasında kalınca ek tanımlama istedi.*/
+.contact {
+  color: inherit;           
+  font-style: normal;         
+  font-weight: inherit;   
+  text-decoration: none;     
+}
+
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+.slider-page {
+  background-color: #2e2f42;
+}
+
+.orderservice-button {
+  background-color: #4d5ae5;
+  cursor: pointer;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+}
+.orderservice-button:hover {
+  background-color: #404bbf;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
